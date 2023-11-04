@@ -116,10 +116,10 @@ public class HeadlessHorsemanGear
                         // The Horseman’s Second Axe 9461
                         Core.EnsureAccept(QuestID);
                         MogloweenMerge.BuyAllMerge("Sinister PumpKing Blade");
-                        Core.HuntMonster("necronaut", "necronaut", "Aged Metal", 5);
-                        Core.HuntMonster("mogloweengrave", "Zombie Terror", "Oversoul Essence", 15);
-                        Core.HuntMonster("cask", "Nitre Golem", "Potassium Nitrate", 10);
-                        Core.HuntMonster("that", "Concealed Fear", "Fear Essence", 15);
+                        Core.HuntMonster("necronaut", "necronaut", "Aged Metal", 5, isTemp: false);
+                        Core.HuntMonster("mogloweengrave", "Zombie Terror", "Oversoul Essence", 15, isTemp: false);
+                        Core.HuntMonster("cask", "Nitre Golem", "Potassium Nitrate", 10, isTemp: false);
+                        Core.HuntMonster("that", "Congealed Fear", "Fear Essence", 15, isTemp: false);
                         Core.EnsureComplete(QuestID);
                         break;
                 }
